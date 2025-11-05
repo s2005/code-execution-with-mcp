@@ -66,7 +66,7 @@ async def filter_pending_orders():
     print(f"Total pending order value: ${total_pending_value:.2f}")
 
     print()
-    print("Key insight: All {len(all_rows)} rows were processed locally.")
+    print(f"Key insight: All {len(all_rows)} rows were processed locally.")
     print(f"Only {len(pending_orders)} filtered results were shown to the model.")
     print("This dramatically reduces token usage for large datasets.")
 
