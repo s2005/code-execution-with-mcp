@@ -1,0 +1,14 @@
+# Python requirements for MCP Code Execution examples
+# Python 3.8+ required
+
+# For async file operations (optional, examples use sync for simplicity)
+# aiofiles>=23.0.0
+
+# Type checking support
+typing-extensions>=4.0.0
+
+# Note: In a real implementation, you would also need:
+# - mcp (Model Context Protocol SDK)
+# - Additional dependencies for specific MCP servers
+# - pandas (for data analysis examples)
+# - Any other libraries your specific use case requires
