@@ -56,7 +56,7 @@ async def wait_for_deployment():
         messages = result['messages']
 
         # Check if any message contains the completion signal
-        found = any('deployment complete' in msg['text'] for msg in messages)
+        found = any('deployment complete' in msg['text'].lower() for msg in messages)
 
         if found:
             print("✓ Deployment notification received!")
